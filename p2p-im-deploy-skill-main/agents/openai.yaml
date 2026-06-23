@@ -1,0 +1,7 @@
+interface:
+  display_name: "P2P IM Deploy"
+  short_description: "Deploy or repair P2P IM from the release manifest"
+  default_prompt: "Use $p2p-im-deploy to read the current P2P IM release manifest, confirm AWS/account/safety gates, run only release-declared operations, verify App Agent chat and MCP discovery, and hand off App setup."
+
+policy:
+  allow_implicit_invocation: true
